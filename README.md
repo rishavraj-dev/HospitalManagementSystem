@@ -1,9 +1,9 @@
-# 🏥 Hospital Management System
+#  Hospital Management System
 
-## 📌 Project Title
+## Project Title
 **Hospital Management System – Terminal Based (Python + MySQL)**
 
-## 📌 Overview of the Project
+## Overview of the Project
 This is a simple, menu-driven **Hospital Management System**  project , developed using **Python** and **MySQL**.  
 It allows hospital staff to manage **patients**, **beds**, and **drugs** using a terminal interface.
 ## Features
@@ -27,14 +27,14 @@ It allows hospital staff to manage **patients**, **beds**, and **drugs** using a
 - Update drug details  
 - Export drugs to CSV  
 
-## 🛠 Technologies / Tools Used
+## Technologies / Tools Used
 - **Python 3.13 or above** get it from https://www.python.org/downloads/
 - **MySQL Server** get it from https://dev.mysql.com/downloads/mysql/
 - **MySQL Workbench** same for this get from https://dev.mysql.com/downloads/mysql/
 - **mysql-connector-python** library
 - Command Prompt 
 
-## 🛠 Steps to Install & Run the Project
+## Steps to Install & Run the Project
 ### 1. Clone the Repository
 
 git clone https://github.com/rishavraj-dev/HospitalManagementSystem
