@@ -6,31 +6,31 @@
 
 ## 🧩 1. Problem Statement
 
-Hospitals handle a large amount of critical data every day — patient records, bed allocations, drug inventory, and more.  
+Hospitals have to manage a lot of work in day to day life from the patient management,bed management,drug management and many other   
 Most of these operations are commonly prone to:
 
-- Manual errors  
+- errors due to manual written records  
 - Mismanaged records  
 - Delayed updates  
 - Lack of centralized access  
 - Difficulty in exporting or analyzing data  
 
-A beginner-friendly system was needed to **digitize and simplify** these administrative processes using basic Python logic and MySQL database connectivity.
+A simple and working system is requred to **digitize and simplify** these administrative processes using basic Python logic and MySQL database connectivity.
 
-The aim was to create a **lightweight, terminal-based Hospital Management System** to help staff perform essential tasks efficiently without relying on complex software.
+The aim is  to create a **lightweight, terminal-based Hospital Management System** to help person working there to  perform essential tasks efficiently without relying on complex software.
 
 
 
 ## 🎯 2. Scope of the Project
 
-This project focuses on the **core functionalities** required in a small to medium hospital setup.  
+This project focuses on the **core functionalities** required in a small or medium hospital setup .  
 The system includes:
 
 - Patient registration, updates, and viewing records  
 - Bed availability tracking and assignment  
 - Drug inventory management  
-- Exporting reports in CSV format (for offline use or analysis)  
-- A simple menu-driven CLI interface  
+- Exporting reports in CSV format or in the format to open in excel files to print eaisly (for offline use or analysis)  
+- A simple menu-driven command prompt interface  
 
 
 ## 👥 3. Target Users
@@ -41,32 +41,29 @@ The system is intended for:
 - Ward managers  
 - Pharmacy inventory handlers  
 - Students learning Python + MySQL  
-- Beginners exploring CRUD-based software development  
-
-Additionally, the project is suitable for VIT academic submissions where simple DBMS integration is required.
-
+- Beginners exploring the software devlopment 
 ---
 
 ## ⭐ 4. High-Level Features
 
 ### ✔️ **Patient Management**
-- Add new patient records  
-- Update phone/address/disease/discharge details  
-- View all patients  
-- Export patient list to CSV  
+- Add new patient records with all the details  
+- Update phone/address/disease/discharge details for any patient by using the ID no.   
+- View all patients data   
+- Export patient list to CSV/excel file  
 
 ### ✔️ **Bed Management**
 - Add new beds with ward type  
 - Assign beds to patients  
-- Mark beds as free  
-- View status of all beds  
-- Export bed status to CSV  
+- Mark beds as free or occupied   
+- View status of all beds at once  
+- Export bed status to CSV to view offline 
 
 ### ✔️ **Drug Management**
-- Add new drugs to inventory  
-- Update stock, price, or expiry  
-- View all drugs  
-- Export drug data to CSV  
+- Add new drugs to store/inventry 
+- Update stock, price, or expiry date 
+- View all drugs with all the details  
+- Export drug data to CSV for offline  
 
 ### ✔️ **Database Integration**
 - All modules interact with MySQL using `mysql-connector-python`  
@@ -77,8 +74,8 @@ Additionally, the project is suitable for VIT academic submissions where simple 
 
 ## 📌 Summary
 
-This project demonstrates a simple yet functional **Hospital Management System**, focusing on clean design, modularity, and real-world application of Python + MySQL.  
-It is beginner-friendly, easy to run, and fulfills academic project requirements with clear modules and proper documentation.
+This project demonstrates a simple yet functional **Hospital Management System**, focusing on real-world application of Python + MySQL.  
+It is beginner-friendly project and is easy to operate 
 
 ---
 

@@ -1,18 +1,11 @@
-# 🏥 Hospital Management System (Python + MySQL)
+# 🏥 Hospital Management System
 
 ## 📌 Project Title
 **Hospital Management System – Terminal Based (Python + MySQL)**
 
-
-
 ## 📌 Overview of the Project
-This project is a simple, menu-driven **Hospital Management System** developed using **Python** and **MySQL**.  
+This is a simple, menu-driven **Hospital Management System**  project , developed using **Python** and **MySQL**.  
 It allows hospital staff to manage **patients**, **beds**, and **drugs** using a terminal interface.
-
-The system supports basic CRUD (Create, Read, Update, Delete) operations and is made as a beginner-friendly mini project.
-
-
-
 ## Features
 
 ### Patient Module
@@ -34,16 +27,12 @@ The system supports basic CRUD (Create, Read, Update, Delete) operations and is 
 - Update drug details  
 - Export drugs to CSV  
 
----
-
 ## 🛠 Technologies / Tools Used
-- **Python 3.x**
-- **MySQL Server**
-- **MySQL Workbench**
+- **Python 3.13 or above** get it from https://www.python.org/downloads/
+- **MySQL Server** get it from https://dev.mysql.com/downloads/mysql/
+- **MySQL Workbench** same for this get from https://dev.mysql.com/downloads/mysql/
 - **mysql-connector-python** library
-- Terminal/Command Prompt
-
----
+- Command Prompt 
 
 ## 🛠 Steps to Install & Run the Project
 ### 1. Clone the Repository
@@ -52,19 +41,20 @@ git clone https://github.com/rishavraj-dev/HospitalManagementSystem
 cd HospitalManagementSystem
 
 ### 2. Install Required Python Package
-Install the MySQL connector library (make sure Python 3.12 or later  is installed).
-
+Install the MySQL connector library (make sure Python 3.13 or later  is installed).
+```
 pip install mysql-connector-python
+```
 
 ### 3. Create MySQL Database
-In MySQL Workbench (or via CLI):
+Inside the  MySQL Workbench:
 ```sql
 CREATE DATABASE hospital_db;
 USE hospital_db;
 ```
 
 ### 4. Create Required Tables
-Run these SQL statements inside the `hospital_db` database:
+Following SQL Commands will get the required table structure for the project 
 ```sql
 CREATE TABLE patients(
 	patient_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -113,7 +103,7 @@ From the project directory:
 python main.py
 ```
 
-### 7. Instructions for Testing
+### 7. Final last steps to start 
 - Start program with `python main.py`
 - Choose a module (Patients / Beds / Drugs)
 - Add sample entries
@@ -121,13 +111,6 @@ python main.py
 - Export CSV files from each module
 - Verify CSV files appear in the project folder
 
-### 📸 Screenshots (Optional)
-You can capture terminal output and MySQL Workbench table views for documentation.
-
 ### 👤 Author
 Rishav Raj  
 B.Tech CSE (Core) — VIT Bhopal University
-
----
-
-Feel free to extend modules (e.g., billing, staff management) or add validation and error handling as next steps.
