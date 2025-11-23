@@ -19,7 +19,7 @@ A beginner-friendly system was needed to **digitize and simplify** these adminis
 
 The aim was to create a **lightweight, terminal-based Hospital Management System** to help staff perform essential tasks efficiently without relying on complex software.
 
----
+
 
 ## 🎯 2. Scope of the Project
 
@@ -32,17 +32,6 @@ The system includes:
 - Exporting reports in CSV format (for offline use or analysis)  
 - A simple menu-driven CLI interface  
 
-**What is NOT included** (for scope clarity):
-
-- No GUI  
-- No doctor/appointment module  
-- No billing system  
-- No authentication/roles  
-- No automation or background services  
-
-This helps keep the system focused, modular, and beginner-friendly.
-
----
 
 ## 👥 3. Target Users
 
