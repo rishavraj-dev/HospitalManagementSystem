@@ -4,7 +4,7 @@
 
 ---
 
-## 🧩 1. Problem Statement
+##  1. Problem Statement
 
 Hospitals have to manage a lot of work in day to day life from the patient management,bed management,drug management and many other   
 Most of these operations are commonly prone to:
@@ -21,7 +21,7 @@ The aim is  to create a **lightweight, terminal-based Hospital Management System
 
 
 
-## 🎯 2. Scope of the Project
+##  2. Scope of the Project
 
 This project focuses on the **core functionalities** required in a small or medium hospital setup .  
 The system includes:
@@ -33,7 +33,7 @@ The system includes:
 - A simple menu-driven command prompt interface  
 
 
-## 👥 3. Target Users
+##  3. Target Users
 
 The system is intended for:
 
@@ -44,35 +44,35 @@ The system is intended for:
 - Beginners exploring the software devlopment 
 ---
 
-## ⭐ 4. High-Level Features
+##  4. High-Level Features
 
-### ✔️ **Patient Management**
+###  **Patient Management**
 - Add new patient records with all the details  
 - Update phone/address/disease/discharge details for any patient by using the ID no.   
 - View all patients data   
 - Export patient list to CSV/excel file  
 
-### ✔️ **Bed Management**
+###  **Bed Management**
 - Add new beds with ward type  
 - Assign beds to patients  
 - Mark beds as free or occupied   
 - View status of all beds at once  
 - Export bed status to CSV to view offline 
 
-### ✔️ **Drug Management**
+###  **Drug Management**
 - Add new drugs to store/inventry 
 - Update stock, price, or expiry date 
 - View all drugs with all the details  
 - Export drug data to CSV for offline  
 
-### ✔️ **Database Integration**
+###  **Database Integration**
 - All modules interact with MySQL using `mysql-connector-python`  
 - Clean, modular code — each component in separate Python files  
 - Simple, human-readable SQL structure  
 
 ---
 
-## 📌 Summary
+##  Summary
 
 This project demonstrates a simple yet functional **Hospital Management System**, focusing on real-world application of Python + MySQL.  
 It is beginner-friendly project and is easy to operate 
